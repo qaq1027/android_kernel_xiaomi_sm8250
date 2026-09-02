@@ -76,7 +76,7 @@ if [ "$ENABLE_KSU" -eq 1 ]; then
     echo " [*] Initializing KernelSU (ReSukiSU) Setup"
     echo "==========================================="
     echo "[*] Downloading and running ReSukiSU remote setup script..."
-    curl -LSs "https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/058cdc931016cb2cb769ed063cce6d65d6df61e0/kernel/setup.sh" | bash
+    curl -LSs "https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/6d72abbf6b8f81bab8f68f2f5e2be845a26c7ef2/kernel/setup.sh" | bash
     echo "[+] KernelSU setup finished."
 fi
 
